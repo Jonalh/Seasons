@@ -1,0 +1,43 @@
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  background-color: white;
+  font-family: Arial;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+
+.typing {
+  display: block;
+  color: black;
+}
+.typing::after {
+  content: "_";
+  height: 100%;
+  padding: 2px;
+  margin-left: 10px;
+
+  animation: typing 1.2s ease infinite;
+}
+span.typed-cursor {
+  display: none;
+}
+
+@keyframes typing {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
