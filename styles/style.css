@@ -1502,6 +1502,12 @@
   }
 }
 /*# sourceMappingURL=style.css.map */
+.typeParent {
+  position: absolute;
+  left: 55%;
+  bottom: 200px;
+  z-index: 10;
+}
 
 .Typewriter__wrapper,
 .Typewriter__cursor {
