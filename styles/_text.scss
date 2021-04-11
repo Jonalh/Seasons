@@ -144,4 +144,25 @@
     animation-timing-function: ease-in-out, linear;
     z-index: -1;
   }
+
+  .thickWinterDiv {
+    animation-name: WinterTextFadeIn;
+    animation-duration: 2s;
+    animation-delay: 55s;
+    z-index: 13;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+
+  .thickWinterDiv p {
+    display: inline-block;
+  }
+
+  #thickWinter2 {
+    font-weight: 700;
+  }
+
+  #thickWinter4 {
+    opacity: 30%;
+  }
 }

@@ -15,6 +15,11 @@ let textCool2 = document.getElementById("textCool2");
 let textCool3 = document.getElementById("textCool3");
 let textBlowAway = document.getElementById("textBlowAway");
 let bird = document.getElementById("bird");
+let thickWinter1 = document.getElementById("thickWinter1");
+let thickWinter2 = document.getElementById("thickWinter2");
+let thickWinter3 = document.getElementById("thickWinter3");
+let thickWinter4 = document.getElementById("thickWinter4");
+let thickWinter5 = document.getElementById("thickWinter5");
 
 setTimeout(function () {
   textFadeIn.remove();
@@ -98,3 +103,23 @@ setTimeout(function () {
 setTimeout(function () {
   bird.remove();
 }, 25500);
+
+setTimeout(function () {
+  thickWinter1.innerHTML = "The ground is";
+}, 55000);
+
+setTimeout(function () {
+  thickWinter2.innerHTML = "thick";
+}, 55000);
+
+setTimeout(function () {
+  thickWinter3.innerHTML = "with slush and sleet, And I can";
+}, 55000);
+
+setTimeout(function () {
+  thickWinter4.innerHTML = "barely";
+}, 55000);
+
+setTimeout(function () {
+  thickWinter5.innerHTML = "feel my feet.";
+}, 55000);

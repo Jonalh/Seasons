@@ -747,6 +747,31 @@
   z-index: -1;
 }
 
+.text .thickWinterDiv {
+  -webkit-animation-name: WinterTextFadeIn;
+          animation-name: WinterTextFadeIn;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-delay: 55s;
+          animation-delay: 55s;
+  z-index: 13;
+  opacity: 0;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.text .thickWinterDiv p {
+  display: inline-block;
+}
+
+.text #thickWinter2 {
+  font-weight: 700;
+}
+
+.text #thickWinter4 {
+  opacity: 30%;
+}
+
 @-webkit-keyframes backgroundColorSummer {
   100% {
     background-color: #aaffd1;
@@ -1531,6 +1556,24 @@
             transform: scale(200);
     border-radius: 100%;
     position: absolute;
+    opacity: 100%;
+  }
+}
+
+@-webkit-keyframes WinterTextFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes WinterTextFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
     opacity: 100%;
   }
 }
