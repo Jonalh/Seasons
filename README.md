@@ -12,7 +12,7 @@ In this assignment, we have created an animated visualization of the poem "Four 
 
 Generally, we have used a lot of keyframes to animate transitions, rotations, and skews etc. The assets and text are then assigned to the keyframes using delay to properly time when they appear. As written in the name of the poem, the animation contains four seasons: spring, summer, autumn, and winter. Each season lasts for 13 seconds, and to change the landscape and background, we animated the opacity to fade through each season. To move the assets, each assets are positioned as absolute. This way, we could use left/right/top/bottom to place them, and transitions to move them where we wanted.
 
-JavaScript is used to add and remove text using innerHTML and .remove. We figured out that
+JavaScript is used to add and remove text using innerHTML and .remove. This because we can use two rows and still keep all text contained without using position absolute. The js functions have a timeout function that calculates when text is added and removed.
 
 ### ROOT
 
